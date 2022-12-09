@@ -4,7 +4,7 @@ import pandas
 import random
 
 MY_EMAIL = "morriseberhard11@gmail.com"
-PASSWORD = "prdchsnhtadbmopo"
+PASSWORD = "in google"
 
 
 data = pandas.read_csv('./birthdays.csv')

@@ -1,7 +1,7 @@
 # import smtplib
 
 # my_email = "morriseberhard11@gmail.com"
-# password = "prdchsnhtadbmopo"
+# password = "in google"
 
 # with smtplib.SMTP("smtp.gmail.com") as connection:
 #     connection.starttls()
@@ -42,7 +42,7 @@ weekday = today.weekday()
 
 # if weekday == 4:
 #     my_email = "morriseberhard11@gmail.com"
-#     password = "prdchsnhtadbmopo"
+#     password = "in google"
 
 #     with smtplib.SMTP("smtp.gmail.com") as connection:
 #         connection.starttls()

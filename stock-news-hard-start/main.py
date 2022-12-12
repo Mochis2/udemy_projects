@@ -2,14 +2,14 @@ import requests
 import smtplib
 import os
 
-# if on work run this shit on in udemy folder
+# if on work run this shit in udemy folder
 # otherwise get the keys from the websites
 
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
 MY_EMAIL = "morriseberhard11@gmail.com"
-PASSWORD = "prdchsnhtadbmopo"
+PASSWORD = "in google"
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
@@ -17,6 +17,8 @@ NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
 STOCK_KEY = os.environ.get("STOCKAPI_KEY")
 NEWS_KEY = os.environ.get("NEWSAPI_KEY")
+print(NEWS_KEY)
+
 print(NEWS_KEY)
 parameters_stock = {
     "function": "TIME_SERIES_DAILY_ADJUSTED",

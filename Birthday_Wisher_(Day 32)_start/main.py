@@ -1,12 +1,5 @@
 # import smtplib
 
-# my_email = "morriseberhard11@gmail.com"
-# password = "in google"
-
-# with smtplib.SMTP("smtp.gmail.com") as connection:
-#     connection.starttls()
-#     connection.login(user=my_email, password=password)
-#     connection.sendmail(from_addr=my_email, to_addrs="morriseberhard44@gmail.com", msg="Subject:LOLE\n\nDini MAMI ISCH FETT HEHE")
 
 
 # import datetime as dt
@@ -40,11 +33,3 @@ today = dt.datetime.now()
 weekday = today.weekday()
 
 
-# if weekday == 4:
-#     my_email = "morriseberhard11@gmail.com"
-#     password = "in google"
-
-#     with smtplib.SMTP("smtp.gmail.com") as connection:
-#         connection.starttls()
-#         connection.login(user=my_email, password=password)
-#         connection.sendmail(from_addr=my_email, to_addrs="morriseberhard44@gmail.com", msg=f"Subject:Depressing Quotes :(\n\n {random_quote}")

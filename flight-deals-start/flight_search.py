@@ -4,7 +4,7 @@ from notification_manager import NotificationManager
 
 
 TEQUILA_ENDPOINT = "https://api.tequila.kiwi.com"
-TEQUILA_API_KEY = "https://tequila.kiwi.com/portal/my-solutions" #on there
+TEQUILA_API_KEY = "" #on there
 IATA_CODE_LIST = ["PAR","BER","TYO","SYD","IST","KUL","NYC","SFO","CPT","LON"]
 
 class FlightSearch:
